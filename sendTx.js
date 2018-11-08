@@ -34,7 +34,6 @@ function sendRaw(rawTx, privateKey, transfer) {
 
 module.exports = (name, parms) => {
   const txOptions = {
-    nonce: web3.toHex(web3.eth.getTransactionCount(process.env.SELLER_ADDR)),
     gasLimit: web3.toHex(800000),
     gasPrice: web3.toHex(20000000000),
     to: process.env.CONTRACT_ADDR
