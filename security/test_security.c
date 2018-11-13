@@ -1,4 +1,5 @@
 #include "trust.h"
+
 int main(void)
 {
         char *buffer;
@@ -36,9 +37,4 @@ int main(void)
                     return 0;
             }
         }
-        buffer = (char*)malloc(sizeof(char) * 10);
-        store_data(id,pwd,iot,go);
-        read_data(id,pwd,iot,buffer);
-
-        printf("%s ",buffer);
 }
