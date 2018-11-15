@@ -18,10 +18,10 @@ While research and development is prolific in smart grid, there are only few res
 
 ## Software Architecture
 
-![software_architecture](https://github.com/EVlock/Blockgrid/blob/master/pictures/software_architecture.PNG)  
+![software_architecture](https://github.com/EVlock/Blockgrid/blob/master/pictures/software_architecture.PNG){: width="300"}
 We use ethereum smart contract as a mediator. All communication is protected by TLS, and device is guarded by ARM TrustZone.
 
 ## Hardware Architecture
 
-![hardware_architecture](https://github.com/EVlock/Blockgrid/blob/master/pictures/hardware_architecture.png)  
+![hardware_architecture](https://github.com/EVlock/Blockgrid/blob/master/pictures/hardware_architecture.png){: width = "300"}
 The hardware system is composed of an ARTIK 710s platform, AS0437 Relay Module, ACS712 Current Measurement Sensor, a smartphone, a rechargeable battery, and a solar panel.
