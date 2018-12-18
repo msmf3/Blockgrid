@@ -43,7 +43,7 @@ function averageAmps() {
     let RawValue = analogRead(ADCPinNumber);
 
     Voltage = RawValue * 0.439453125;
-    Amps += ((Voltage - ACSoffset) / mVperAmp);
+    Amps += Math.abs((Voltage - ACSoffset) / mVperAmp);
     sleep(100);
   }
   console.log('mV = ' + Voltage + '\t Amps : ' + Amps / 50);
